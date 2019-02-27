@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		7B9DC07C221BF25D009E3CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC07B221BF25D009E3CA6 /* AppDelegate.swift */; };
-		7B9DC07E221BF25D009E3CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC07D221BF25D009E3CA6 /* ViewController.swift */; };
 		7B9DC081221BF25D009E3CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DC07F221BF25D009E3CA6 /* Main.storyboard */; };
 		7B9DC083221BF25E009E3CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DC082221BF25E009E3CA6 /* Assets.xcassets */; };
 		7B9DC086221BF25E009E3CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DC084221BF25E009E3CA6 /* LaunchScreen.storyboard */; };
 		7B9DC091221BF25E009E3CA6 /* SettingsvcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC090221BF25E009E3CA6 /* SettingsvcTests.swift */; };
 		7B9DC09C221BF25E009E3CA6 /* SettingsvcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC09B221BF25E009E3CA6 /* SettingsvcUITests.swift */; };
+		7B9DC0AB221BF27F009E3CA6 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0A9221BF27F009E3CA6 /* BaseViewModel.swift */; };
+		7B9DC0AC221BF27F009E3CA6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0AA221BF27F009E3CA6 /* BaseViewController.swift */; };
+		7B9DC0AE221BF2AC009E3CA6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0AD221BF2AC009E3CA6 /* SettingsViewController.swift */; };
+		7B9DC0B0221BF2CD009E3CA6 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0AF221BF2CD009E3CA6 /* SettingsViewModel.swift */; };
+		7B9DC0B2221BF30D009E3CA6 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0B1221BF30D009E3CA6 /* BaseTableViewController.swift */; };
+		7B9DC0B4221BF3A5009E3CA6 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0B3221BF3A5009E3CA6 /* BaseTableViewCell.swift */; };
+		7B9DC0B6221BF57E009E3CA6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0B5221BF57E009E3CA6 /* Extensions.swift */; };
+		7B9DC0B8221BFFA1009E3CA6 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0B7221BFFA1009E3CA6 /* SettingsTableViewCell.swift */; };
+		7B9DC0BA221BFFB8009E3CA6 /* SettingsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0B9221BFFB8009E3CA6 /* SettingsObject.swift */; };
+		7B9DC0C8221C045F009E3CA6 /* EncapsulatedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0C7221C045F009E3CA6 /* EncapsulatedArray.swift */; };
+		7B9DC0CA221C155B009E3CA6 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DC0C9221C155B009E3CA6 /* SettingsManager.swift */; };
+		7BB1CAD9221D3CDB001C420B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1CAD8221D3CDB001C420B /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,6 @@
 /* Begin PBXFileReference section */
 		7B9DC078221BF25D009E3CA6 /* Settingsvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Settingsvc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9DC07B221BF25D009E3CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B9DC07D221BF25D009E3CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B9DC080221BF25D009E3CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B9DC082221BF25E009E3CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B9DC085221BF25E009E3CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		7B9DC097221BF25E009E3CA6 /* SettingsvcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingsvcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9DC09B221BF25E009E3CA6 /* SettingsvcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsvcUITests.swift; sourceTree = "<group>"; };
 		7B9DC09D221BF25E009E3CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B9DC0A9221BF27F009E3CA6 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		7B9DC0AA221BF27F009E3CA6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7B9DC0AD221BF2AC009E3CA6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7B9DC0AF221BF2CD009E3CA6 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		7B9DC0B1221BF30D009E3CA6 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		7B9DC0B3221BF3A5009E3CA6 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		7B9DC0B5221BF57E009E3CA6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7B9DC0B7221BFFA1009E3CA6 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		7B9DC0B9221BFFB8009E3CA6 /* SettingsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsObject.swift; sourceTree = "<group>"; };
+		7B9DC0C7221C045F009E3CA6 /* EncapsulatedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncapsulatedArray.swift; sourceTree = "<group>"; };
+		7B9DC0C9221C155B009E3CA6 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		7BB1CAD8221D3CDB001C420B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				7B9DC07B221BF25D009E3CA6 /* AppDelegate.swift */,
-				7B9DC07D221BF25D009E3CA6 /* ViewController.swift */,
-				7B9DC07F221BF25D009E3CA6 /* Main.storyboard */,
-				7B9DC082221BF25E009E3CA6 /* Assets.xcassets */,
-				7B9DC084221BF25E009E3CA6 /* LaunchScreen.storyboard */,
-				7B9DC087221BF25E009E3CA6 /* Info.plist */,
+				7B9DC0C0221C0032009E3CA6 /* Base */,
+				7B9DC0BB221BFFF8009E3CA6 /* Settings */,
+				7B9DC0C6221C025C009E3CA6 /* Misc */,
 			);
 			path = Settingsvc;
 			sourceTree = "<group>";
@@ -123,6 +143,107 @@
 				7B9DC09D221BF25E009E3CA6 /* Info.plist */,
 			);
 			path = SettingsvcUITests;
+			sourceTree = "<group>";
+		};
+		7B9DC0BB221BFFF8009E3CA6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0CB221C1565009E3CA6 /* Managers */,
+				7B9DC0BD221C000F009E3CA6 /* ViewController */,
+				7B9DC0BC221C0003009E3CA6 /* ViewModel */,
+				7B9DC0BE221C001A009E3CA6 /* Cells */,
+				7B9DC0BF221C0021009E3CA6 /* Object */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7B9DC0BC221C0003009E3CA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0AF221BF2CD009E3CA6 /* SettingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B9DC0BD221C000F009E3CA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0AD221BF2AC009E3CA6 /* SettingsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B9DC0BE221C001A009E3CA6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0B7221BFFA1009E3CA6 /* SettingsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7B9DC0BF221C0021009E3CA6 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0B9221BFFB8009E3CA6 /* SettingsObject.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		7B9DC0C0221C0032009E3CA6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0C3221C0051009E3CA6 /* ViewModel */,
+				7B9DC0C2221C0046009E3CA6 /* ViewController */,
+				7B9DC0C1221C003C009E3CA6 /* Cells */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7B9DC0C1221C003C009E3CA6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0B3221BF3A5009E3CA6 /* BaseTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7B9DC0C2221C0046009E3CA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0AA221BF27F009E3CA6 /* BaseViewController.swift */,
+				7B9DC0B1221BF30D009E3CA6 /* BaseTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B9DC0C3221C0051009E3CA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0A9221BF27F009E3CA6 /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B9DC0C6221C025C009E3CA6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC07F221BF25D009E3CA6 /* Main.storyboard */,
+				7B9DC0B5221BF57E009E3CA6 /* Extensions.swift */,
+				7BB1CAD8221D3CDB001C420B /* LoadingView.swift */,
+				7B9DC0C7221C045F009E3CA6 /* EncapsulatedArray.swift */,
+				7B9DC082221BF25E009E3CA6 /* Assets.xcassets */,
+				7B9DC084221BF25E009E3CA6 /* LaunchScreen.storyboard */,
+				7B9DC087221BF25E009E3CA6 /* Info.plist */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		7B9DC0CB221C1565009E3CA6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DC0C9221C155B009E3CA6 /* SettingsManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +377,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B9DC07E221BF25D009E3CA6 /* ViewController.swift in Sources */,
+				7B9DC0B2221BF30D009E3CA6 /* BaseTableViewController.swift in Sources */,
+				7B9DC0B0221BF2CD009E3CA6 /* SettingsViewModel.swift in Sources */,
+				7B9DC0B8221BFFA1009E3CA6 /* SettingsTableViewCell.swift in Sources */,
+				7B9DC0AC221BF27F009E3CA6 /* BaseViewController.swift in Sources */,
+				7B9DC0B6221BF57E009E3CA6 /* Extensions.swift in Sources */,
+				7B9DC0BA221BFFB8009E3CA6 /* SettingsObject.swift in Sources */,
+				7B9DC0C8221C045F009E3CA6 /* EncapsulatedArray.swift in Sources */,
 				7B9DC07C221BF25D009E3CA6 /* AppDelegate.swift in Sources */,
+				7B9DC0CA221C155B009E3CA6 /* SettingsManager.swift in Sources */,
+				7B9DC0B4221BF3A5009E3CA6 /* BaseTableViewCell.swift in Sources */,
+				7B9DC0AB221BF27F009E3CA6 /* BaseViewModel.swift in Sources */,
+				7BB1CAD9221D3CDB001C420B /* LoadingView.swift in Sources */,
+				7B9DC0AE221BF2AC009E3CA6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +566,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZL797GF7H;
-				INFOPLIST_FILE = Settingsvc/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Settingsvc/Misc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZL797GF7H;
-				INFOPLIST_FILE = Settingsvc/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Settingsvc/Misc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
