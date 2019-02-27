@@ -1,0 +1,6 @@
+framework module Pods_SettingsvcTests {
+  umbrella header "Pods-SettingsvcTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
